@@ -1,5 +1,13 @@
 import 'boxicons';
 import 'jquery';
+import Isotope from 'isotope-layout';
+
+// Initialize Isotope on a .grid element
+var iso = new Isotope('.grid', {
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+});
 
 (function() {
   "use strict";
