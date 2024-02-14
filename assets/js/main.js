@@ -1,3 +1,5 @@
+import 'boxicons';
+import 'jquery';
 
 (function() {
   "use strict";
